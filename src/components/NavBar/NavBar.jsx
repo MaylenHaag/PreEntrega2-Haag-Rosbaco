@@ -2,9 +2,9 @@ import CartWidget from "../CartWidget/CartWidget"
 
 const NavBar = () => {
     return(
-        <nav className="navbar navbar-expand-lg bg-light">
+        <nav className="navbar navbar-expand-lg barraNav">
              <div className="container-fluid">
-             <h1>Farmacia Solidaria</h1>
+             <h1 className="logo">Farmacia Solidaria</h1>
         <button
           className="navbar-toggler"
           type="button"
@@ -20,43 +20,43 @@ const NavBar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
             
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="#" class="btn btn-outline-light">
               Dermo
               </a>
             </li>
             <li className="nav-item">
             
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="#" class="btn btn-outline-light">
               Bebés
               </a>
             </li>
             <li className="nav-item">
             
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="#" class="btn btn-outline-light">
               Hogar
               </a>
             </li>
             <li className="nav-item">
             
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="#" class="btn btn-outline-light">
               Belleza
               </a>
             </li>
             <li className="nav-item">
             
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="#" class="btn btn-outline-light">
               Limpieza
               </a>
             </li>
             <li className="nav-item">
             
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="#" class="btn btn-outline-light">
               Cuidado Personal
               </a>
             </li>
             <li className="nav-item">
             
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="#" class="btn btn-outline-light">
              Nutricion y Deportes
               </a>
             </li>

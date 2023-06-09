@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.barraNav{
+  background-color: #218C8D;
+}
+
+.logo{
+  color: #C8BBA8;
+}
+
+.carrito{
+  color: #C8BBA8;
+}
