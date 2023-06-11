@@ -4,7 +4,7 @@ const NavBar = () => {
     return(
         <nav className="navbar navbar-expand-lg barraNav">
              <div className="container-fluid">
-             <h1 className="logo">Farmacia Solidaria</h1>
+             <h2 className="logo">Farmacia Solidaria</h2>
         <button
           className="navbar-toggler"
           type="button"

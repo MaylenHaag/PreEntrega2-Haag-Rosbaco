@@ -23,3 +23,18 @@ code {
 .carrito{
   color: #C8BBA8;
 }
+
+.cartas{
+  display: flex;
+	flex-direction: rox;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	align-content: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.imgPeque{
+  height: 158px;
+  width: 155px;
+}
