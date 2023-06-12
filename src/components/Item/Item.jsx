@@ -1,7 +1,9 @@
+import {Link} from 'react-router-dom'
+
 const Item = ({id, name, img, price, stock}) => {
 
     return (
-        <div className="cartas">
+        <div>
             <article class="card">
             <picture>
                 <img src={img} class="imgPeque" alt={name}/>
