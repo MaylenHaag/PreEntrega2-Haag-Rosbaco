@@ -3,7 +3,7 @@ const products = [
         id: '1',
         name: 'Shampoo Elvive Hidra Hialurónico x 400 ml',
         price: 1000,
-        category: 'cuidadopersonal',
+        category: 'cuidadoPersonal',
         img: 'https://farmacityar.vteximg.com.br/arquivos/ids/228352-1000-1000/221679_shampoo-elvive-hidra-hialuronico-x-400-ml_imagen-1.jpg?v=637986815594830000',
         stock: 5,
         descripcion: 'El shampoo Hidra rellenador, con Ácido Hialurónico y efecto Anti-Sal°, recarga la fibra con una hidratación intensa para una transformación instantánea y un cabello suave, ligero y brillante. Elvive Hidra Hialurónico para cabello deshidratado.'
@@ -12,7 +12,7 @@ const products = [
         id: '2',
         name: 'Shampoo Elvive Reparación Total Extreme x 400 ml',
         price: 1000,
-        category: 'cuidadopersonal',
+        category: 'cuidadoPersonal',
         img: 'https://farmacityar.vteximg.com.br/arquivos/ids/228448-600-600/143506_shampoo-reparacion-total-extreme-x-400-ml_imagen-1.jpg?v=637987726277500000',
         stock: 6,
         descripcion: '¿Cabello muy dañado? Nuestro Shampoo Reconstructor, con un concentrado reparador con KERATINxs, LAK 1000 y con efecto Anti-Sal°, transforma el cabello muy dañado. Elvive Reparación Total Extreme para cabello muy dañado.'
@@ -21,7 +21,7 @@ const products = [
         id: '3',
         name: 'Shampoo Dove Regeneración Extrema x 200 ml',
         price: 700,
-        category: 'cuidadopersonal',
+        category: 'cuidadoPersonal',
         img: 'https://farmacityar.vteximg.com.br/arquivos/ids/239142-600-600/215075_shampoo-dove-regeneracion-extrema-x-200-ml___imagen-1.jpg?v=638149981472000000',
         stock: 4,
         descripcion: 'Descubre el shampoo Dove Regeneración Extrema un concentrado poderoso de ingredientes activos regeneradores que nutren profundamente la fibra capilar activando el proceso de regeneración interna del cabello.'
@@ -165,7 +165,7 @@ const products = [
         id: '19',
         name: 'Ena Combo enargy gel vainilla + enargy gel uva con cafeína',
         price: 5000,
-        category: 'nutricionydeportes',
+        category: 'nutricionYDeportes',
         img: 'https://farmaonline.vtexassets.com/arquivos/ids/1082062-1200-1200?v=638213286070300000&width=1200&height=1200&aspect=true',
         stock: 4,
         descripcion: 'Suplemento deportivo enargy gel +  cafeína sabor a vainilla (12 unidades):Enargy Gel es un repositor energético creado para el entrenamiento cotidiano y la competencia. Es rico en carbohidratos en un paquete portátil para mejorar resistencia y potencia. Es un suplemento dietario a base de carbohidratos, vitamina C, E y minerales, con cafeína, que aporta energía en movimiento, ideal para todo trabajo aeróbico.'
@@ -174,7 +174,7 @@ const products = [
         id: '20',
         name: 'Ena Suplemento deportivo quemador ripped 60 cáspsulas',
         price: 3100,
-        category: 'nutricionydeportes',
+        category: 'nutricionYDeportes',
         img: 'https://farmaonline.vtexassets.com/arquivos/ids/587280-1200-1200?v=638119081961470000&width=1200&height=1200&aspect=true',
         stock: 3,
         descripcion: 'NUEVA GENERACIÓN EN QUEMADORES DE GRASAS'
@@ -183,7 +183,7 @@ const products = [
         id: '21',
         name: 'Lafarmen Amino 2000 por 120 comprimidos',
         price: 3000,
-        category: 'nutricionydeportes',
+        category: 'nutricionYDeportes',
         img: 'https://farmaonline.vtexassets.com/arquivos/ids/385234-1600-1600?v=637995589396770000&width=1600&height=1600&aspect=true',
         stock: 2,
         descripcion: 'Esta fórmula contiene los 8 aminoácidos esenciales. De los 22 aminoácidos de la proteína, 14 pueden ser fabricados en el cuerpo, mientras que los 8 restantes deben ser procurados en el exterior. Es esencial que estos 8 aminoácidos sean suministrados al mismo tiempo y en cantidades suficientes para que los demás sean fabricados en el cuerpo.'

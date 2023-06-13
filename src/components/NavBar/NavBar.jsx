@@ -20,14 +20,69 @@ const NavBar = () => {
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse"      id="navbarSupportedContent">
-                <NavLink to={`category/dermo`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Dermo</NavLink>
-                <NavLink to={`category/bebes`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Bebés</NavLink>
-                <NavLink to={`category/hogar`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Hogar</NavLink>
-                <NavLink to={`category/belleza`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Belleza</NavLink>
-                <NavLink to={`category/limpieza`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Limpieza</NavLink>
-                <NavLink to={`category/cuidadopersonal`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Cuidado Personal</NavLink>
-                <NavLink to={`category/nutricionydeportes`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Nutrición y Deportes</NavLink>
+                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li className="nav-item">
+            
+                  <NavLink to={`category/dermo`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                    <a className="nav-link active " aria-current="page">
+                      Dermo
+                    </a>
+                  </NavLink>
+                    
+                  </li>
+                  <li className="nav-item">
+            
+                  <NavLink to={`category/bebes`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                    <a className="nav-link active" aria-current="page">
+                      Bebés
+                    </a>
+                  </NavLink>
+                  </li>
+                  <li className="nav-item">
+                  
+                  <NavLink to={`category/hogar`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                    <a className="nav-link active" aria-current="page">
+                      Hogar
+                    </a>
+                  </NavLink>
+                  </li>
+                  <li className="nav-item">
+                  
+                  <NavLink to={`category/belleza`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                    <a className="nav-link active" aria-current="page">
+                      Belleza
+                    </a>
+                  </NavLink>
+                  </li>
+                  <li className="nav-item">
+                  
+                  <NavLink to={`category/limpieza`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                    <a className="nav-link active" aria-current="page">
+                      Limpieza
+                    </a>
+                  </NavLink>
+                  </li>
+                  <li className="nav-item">
+                  
+                  <NavLink to={`category/cuidadoPersonal`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                    <a className="nav-link active" aria-current="page">
+                      Cuidado Personal
+                    </a>
+                  </NavLink>
+                  </li>
+                  <li className="nav-item">
+                  
+                  <NavLink to={`category/nutricionYDeportes`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >
+                    <a className="nav-link active" aria-current="page">
+                      Nutrición y Deportes
+                    </a>
+                  </NavLink>
+                  </li>
+                </ul>
 
+
+
+                
                 <CartWidget />
               </div>
           </div>
